@@ -18,6 +18,8 @@
     background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%),
 linear-gradient(0deg, #CF0063, #CF0063);
 height: 800px;
+
+position: relative;
 }
 
 .header__wrap{
@@ -97,7 +99,7 @@ transition: 0.5s;
 
 .header__center-icon{
     position: absolute;
-    bottom: 150px;
+    bottom: 30px;
     right: 50%;
 }
 
@@ -115,5 +117,42 @@ transition: 0.5s;
 
 .nullam{
     height: 957px;
-    background: black;
+    background: #1B1B1B;
+}
+
+.nullam__wrap{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nullam__desc{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 80px;
+    align-items: center;
+    width: 700px;
+    padding: 0 47px;
+}
+
+.nullam__desc-p{
+    color: #A8A8A8;
+    font-family: 'gr';
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 2px;
+}
+
+.nullam__desc-h{
+    color: white;
+    font-family: 'gr';
+font-size: 38px;
+font-weight: 400;
+line-height: 48px;
+text-align: center;
 }
