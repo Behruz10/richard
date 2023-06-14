@@ -24,12 +24,21 @@
         padding: 0 150px;
         margin-top: 140px;
     }
+    
+    .activity__wrap{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 60px;
+    }
 }
 
 @media screen and (max-width:1039px) {
     .header__center-desc{
         width: 400px;
-        
+    }
+    
+    .icons{
+        width: 700px;
     }
 }
 
@@ -38,13 +47,44 @@
         width: 500px;
     }
     
-    .header__center-desc{
+    .nullam__desc{
+        padding: 0;
+        width: 400px;
+    }
+    
+    .nullam{
+        height: 690px;
+    }
+    
+    .numbers__wrap{
+        flex-wrap: wrap;
+        gap: 100px;
+    }
+    
+    .aenean__card{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    
+    .aenean__card-two{
 
-        padding: none;
+        flex-wrap: wrap;
     }
 }
 
 @media screen and (max-width:737px) {
+    
+    .commas__desc{
+        width: 500px;
+    }
+    
+    .icons img{
+        width: 500px;
+    }
+    .icons{
+        justify-content: center;
+        display: flex;
+    }
     
     .header__wrap{
         gap: 100px;
@@ -74,12 +114,52 @@
        top: 170px;
     }
     
-    
+}
+
+@media screen and (max-width:600px) {
+    .burgers{
+        width: 370px;
+    }
 }
 
 
-
 @media screen and (max-width:500px) {
+    
+    .footer-ul{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .update__frame{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+    
+    .update__frame-input{
+        width: 290px;
+    }
+    
+    .dowload__btn-one{
+        width: 100px;
+        height: 40px;
+        font-size: 10px;
+    }
+    
+    .banner__phone{
+        height: 200px;
+    }
+    
+    .commas__desc{
+        width: 100%;
+        align-items: center;
+    }
+    
+    .icons img {
+        width: 280px;
+    }
+    
     .nav{
         flex-direction: column;
         gap: 10px;
@@ -121,4 +201,105 @@
     }
     
     
+    .nullam__banner{
+        width: 364px;
+    }
+    
+    .nullam__desc{
+        width: 340px;
+    }
+    
+    .nullam__desc-h{
+        font-size: 22px;
+    }
+    
+    .nullam{
+        height: 550px;
+    }
+    
+    .phone{
+        width: 300px;
+        height: 469px;
+    }
+    
+    .card__wrap{
+        flex-wrap: wrap;
+        gap: 50px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    .card__wrap2{
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .burgers{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:364px) {
+    
+    .update__frame-input{
+        width: 200px;
+        font-size: 10px;
+        height: 50px;
+        border-radius: 3px;
+    }
+    
+    .update__frame-btn{
+        width: 100px;
+        height: 50px;
+        border-radius: 3px;
+    }
+    
+    .burgers{
+        width: 250px;
+    }
+    
+    .aenean__desc{
+        width: 100%;
+    }
+    
+    .header__banner{
+        width: 190px;
+        height: 220px;
+    }
+    
+    .nullam{
+        height: 700px;
+    }
+    
+    .nav__menu{
+        width: 200px;
+    }
+    
+    .phone{
+        width: 240px;
+        height: 400px;
+    }
+    
+    .phone2{
+        width: 250px;
+    }
+    
+    .card__desc{
+        width: 100%;
+    }
+    
+    .activity__desc{
+     width: 100%;   
+    }
+    
+    .nullam__banner{
+        width: 250px;
+    }
+    
+    .nullam__desc{
+        width: 100%;
+    }
 }
